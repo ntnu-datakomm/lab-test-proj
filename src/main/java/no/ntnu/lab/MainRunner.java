@@ -1,4 +1,4 @@
-package no.ntnu.lab04;
+package no.ntnu.lab;
 
 import javafx.application.Application;
 import javafx.scene.Parent;

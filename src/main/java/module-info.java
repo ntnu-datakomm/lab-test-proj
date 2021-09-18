@@ -1,5 +1,7 @@
-module Lab.TestProj {
+module no.ntnu.lab {
   requires javafx.controls;
   requires javafx.fxml;
-  exports no.ntnu.lab04;
+
+  opens no.ntnu.lab to javafx.fxml;
+  exports no.ntnu.lab;
 }
