@@ -19,8 +19,8 @@ public class MainRunner extends Application {
         URL fxml_file_url = getClass().getResource("gui.fxml");
         if (fxml_file_url != null) {
             Parent root = FXMLLoader.load(fxml_file_url);
-            Scene scene = new Scene(root, 300, 275);
-            stage.setTitle("Dice roller");
+            Scene scene = new Scene(root);
+            stage.setTitle("TCP Client test");
             stage.setScene(scene);
             stage.show();
         } else {
