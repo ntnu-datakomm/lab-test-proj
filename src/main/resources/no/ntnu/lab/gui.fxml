@@ -7,6 +7,6 @@
    <children>
       <Button fx:id="connectBtn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" text="Connect" />
       <Button fx:id="sendBtn" layoutX="155.0" layoutY="10.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" text="Send a message" />
-      <TextArea fx:id="areaMessages" layoutX="10.0" layoutY="45.0" prefHeight="245.0" prefWidth="280.0" />
+      <TextArea fx:id="areaMessages" editable="false" layoutX="10.0" layoutY="45.0" prefHeight="245.0" prefWidth="280.0" />
    </children>
 </AnchorPane>
